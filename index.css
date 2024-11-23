@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    overflow-y: auto;
+    background: lightblue;
+  }
+  
+  text {
+    font-family: sans-serif;
+  }
+
+
+  .county {
+    fill: #ebf0e4;
+    stroke: black;
+    stroke-width: 0.1px;
+  }
+
+  /* .county:hover {
+    fill: lightgray;
+  } */
+
+
+  #menus select {
+    font-size: 1.5rem;
+  }
+  
+  #menus select option {
+    font-size: 1rem;
+  }
+  #mainPlot {
+    margin-top: 150px; 
+    margin-left: 500px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+  }
+
+
+  .track,
+  .track-inset,
+  .track-overlay {
+      stroke-linecap: round;
+  }
+
+  .track {
+      stroke: #000;
+      stroke-opacity: 0.3;
+      stroke-width: 10px;
+  }
+
+  .track-inset {
+      stroke: #dcdcdc;
+      stroke-width: 8px;
+  }
+
+  .track-overlay {
+      pointer-events: stroke;
+      stroke-width: 50px;
+      stroke: transparent;
+      cursor: crosshair;
+  }
+
+  .handle {
+      fill: #fff;
+      stroke: #000;
+      stroke-opacity: 0.5;
+      stroke-width: 1.25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* h1,p{
+    text-align: center;
+  }
+  p{
+    color:  #635F5D;
+  }
+  ol {
+    color: #8e8883;
+    transform: translateX(20%);
+  }
+
+.titles {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.node rect {
+  cursor: move;
+  fill-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 0.2;
+}
+
+.link:hover {
+  stroke-opacity: 0.5;
+}
+
+.tooltip {
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 4px;
+  color: #373737;
+  border: none;
+  box-shadow: 0px 0px 3px 0px #E6E6E6;
+  position: absolute;
+} */
