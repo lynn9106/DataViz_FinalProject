@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Demo</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div>
+        <button id="selectAll">Select All</button>
+        <button id="selectNone">Select None</button>
+    </div>
+    <div id="typhoon_options"></div>
+    <svg id="my_dataviz" width="1000" height="1000"></svg>
+    <!-- <label for="slider">Adjust value:</label>
+    <input type="range" id="slider" name="slider" min="1" max="100" value="50">
+    <span id="sliderValue">50</span>
+
+    <script>
+        const slider = document.getElementById('slider');
+        const sliderValue = document.getElementById('sliderValue');
+
+        slider.addEventListener('input', function() {
+            sliderValue.textContent = slider.value;
+        });
+    </script> -->
+</body>
+</html>
+<script type="module">
+    import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
+    import * as topojson from 'https://cdn.jsdelivr.net/npm/topojson-client@3/+esm';
+</script>
+<script  type="module" src="./main.js"></script>
+<style>
+
+</style>

@@ -19,23 +19,23 @@ body {
     fill: lightgray;
   } */
 
-
+/* 
   #menus select {
     font-size: 1.5rem;
   }
   
   #menus select option {
     font-size: 1rem;
-  }
-  #mainPlot {
+  } */
+  /* #mainPlot {
     margin-top: 150px; 
     margin-left: 500px;
     margin-right: 150px;
     margin-bottom: 50px;
-  }
+  } */
 
 
-  .track,
+  /* .track,
   .track-inset,
   .track-overlay {
       stroke-linecap: round;
@@ -64,9 +64,28 @@ body {
       stroke: #000;
       stroke-opacity: 0.5;
       stroke-width: 1.25px;
-  }
+  } */
 
+.city-landmark {
+cursor: pointer;
+transition: all 0.3s ease;
+}
 
+.city-landmark:hover {
+    fill: orange;
+    r: 8;
+}
+
+#city-details-chart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
 
 
 
